@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: offsetkey}
 layers:
   Qwery:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -345,5 +345,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 11]
+- p: [0, 14]
   k: $$mdi:progress-download$$
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
